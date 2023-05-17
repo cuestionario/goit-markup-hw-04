@@ -1,28 +1,86 @@
+/* Paleta de colores */
+:root {
+  --primary-black-color:#212121;
+  --primary-text-color:#757575;
+  --primary-white-color:#fff;
+
+  --accent-color:#2196f3;
+  --background-black-color:#21303a;
+  --background-gray-color:#f5f4fa;
+  --button-filter-color:#f5f4fa;
+  --button-primary-hover-color:#188ce8;
+  --logo-black-color:#000;
+  --text-white-opacity:#ffffff99;
+
+  --container-padding: calc((100% -1200px)/2);
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+}
+
 body {
-  background-color: white;
+  background-color:var(--primary-white-color);
+  color:var(--primary-text-color);
   font-family: "Roboto", "Arial";
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.logo {
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+}
+
 .top-box {
+  width:1600px;
   min-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #2f303a;
-  background-image: url(./images/img0.jpg);
+  /* background-color: #2f303a; */
+  background-image: url(/images/img0.jpg);
   color:#fff;
   text-align: center;
   background-position: center;
+}
+
+button {
+  color: white;
+  background-color: #2196f3;
+  font-size: 16px;
+  font-weight: 700px;
+  border:none;
+  outline: none;  
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.main-button {
+  background-color: var(--accent-color);
+  color:var(--primary-white-color);
+  font-size: 16px;
+  font-weight: 700px;
+
+  border:none;
+  outline: none; 
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+.container {
+  padding:0 15px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .bottom-box {
@@ -35,15 +93,6 @@ header {
   align-items: center;
 }
 
-button {
-  color: white;
-  background-color: #2196f3;
-  width: 261px;
-  height: 50px;
-  font-size: 16px;
-  font-weight: 700px;
-  justify-content: center;
-}
 
 .button-link {
   color: #212121;
@@ -65,11 +114,7 @@ button:hover {
   text-align: center;
 }
 /*Espacio para menú navegación*/
-.logo {
-  color: #2196f3;
-  font-weight: 700;
-  font-size: 26px;
-}
+
 
 .main-menu {
   color: #212121;
@@ -124,13 +169,7 @@ img {
   padding-bottom: 94px;
   justify-content: space-between;
 }
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 nav {
   display: flex;
 }
