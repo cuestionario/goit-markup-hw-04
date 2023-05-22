@@ -11,7 +11,7 @@
   --button-primary-hover-color:#188ce8;
   --logo-black-color:#000;
   --text-white-opacity:#ffffff99;
-
+  --highlight-color:#2196F3;
   --container-padding: calc((100% -1200px)/2);
 
 }
@@ -95,19 +95,18 @@ header nav {
 
 
 .top-box {
-  /* width:1600px;
   min-height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;
   background-color: #2f303a;
   padding: 200px var(--container-padding);
   text-align: center;
 
-  /* background-image: url(/images/img0.jpg);
+  background-image: url(/images/img0.jpg);
   color:var(--primary-white-color);
   text-align: center;
-  background-position: center; */
+  background-position: center;
 }
 
 /* button {
@@ -129,19 +128,19 @@ header nav {
   text-transform: capitalize;
 }
 
-.promesa-valor{
+.value-promise{
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-evenly;
   display: flex;
 }
 
-.benefits li{
+.value-promise li{
   list-style: none;
   width: 240px;
 }
 
-.benefits li .title{
+.value-promise li .title{
   height: 50px;
   text-transform: uppercase;
   color: var(--primary-black-color);
@@ -158,24 +157,47 @@ header nav {
   list-style: none;
   width: 360px;
 }
-.bottom-box {
+.members-section {
   background-color: var(--background-gray-color);
 }
 
-.bottom-box li{
+.members-section li{
   background-color: var(--primary-white-color);
   text-align: center;
   list-style: none;
 }
 
-.bottom-box li h3 {
+.members-section li h3 {
   margin: 20px 0 10px 0;
 }
 
-.bottom-box li p{
+.members-section li p{
   margin-top: 30px;
 }
 
+.members-section .container .team-cards li ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  height: 35px;
+  width: 35px;
+}
+
+.members-section .container .team-cards li ul li a .icon{
+  height: 35px;
+  width: 35px;
+  fill:var(--primary-text-color);
+}
+
+.members-section .container .team-cards li ul li a:hover{
+  background-color: var(--highlight-color);
+}
+
+.members-section .container .team-cards li ul li a:hover, 
+.members-section .container .team-cards li ul li a:focus {
+  fill: var(--primary-white-color);
+}
 .button-link {
   color: var(--primary-black-color);
   background-color: #f5f4fa;
@@ -269,9 +291,9 @@ img {
   align-content: center;
 }
 
-.wrkr {
+.team-cards {
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 208px;
   top: 1716px;
   text-align: center;
@@ -297,3 +319,20 @@ address {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
