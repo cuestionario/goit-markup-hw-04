@@ -103,7 +103,8 @@ header nav {
   padding: 200px var(--container-padding);
   text-align: center;
 
-  background-image: url(/images/img0.jpg);
+  background-image: url("/images/img0.jpg");
+  background-repeat: no-repeat;
   color:var(--primary-white-color);
   text-align: center;
   background-position: center;
@@ -324,9 +325,7 @@ address {
   display: inline-block;
   width: 1em;
   height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+  border-radius: 4px;
 }
 
 /* ==========================================
