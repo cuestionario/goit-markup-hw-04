@@ -13,8 +13,8 @@
   --text-white-opacity:#ffffff99;
   --highlight-color:#2196F3;
   --container-padding: calc((100% -1200px)/2);
-
 }
+
 *{
   margin: 0;
   padding: 0;
@@ -28,6 +28,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 .main-button {
@@ -66,11 +67,12 @@ body {
 }
 
 .section {
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .section > h2 {
   color: var(--primary-black-color);
+  text-align: center;
 }
 
 a{
@@ -93,6 +95,10 @@ header nav {
   gap: 100px;
 }
 
+header nav .main-menu {
+  display: flex;
+  list-style: none;
+}
 
 .top-box {
   min-height: 600px;
@@ -103,7 +109,7 @@ header nav {
   padding: 200px var(--container-padding);
   text-align: center;
 
-  background-image: url("/images/img0.jpg");
+  background-image: #2F303A, url("/images/img0.jpg");
   background-repeat: no-repeat;
   color:var(--primary-white-color);
   text-align: center;
@@ -161,7 +167,9 @@ header nav {
 .members-section {
   background-color: var(--background-gray-color);
 }
-
+.members-section .container .team-cards{
+  
+}
 .members-section li{
   background-color: var(--primary-white-color);
   text-align: center;
@@ -327,7 +335,12 @@ address {
   height: 1em;
   border-radius: 4px;
 }
+.icon-value{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
 
+}
 /* ==========================================
 Single-colored icons can be modified like so:
 .icon-name {
