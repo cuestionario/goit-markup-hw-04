@@ -65,7 +65,9 @@ header {
 }
 
 .icon {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1em;
   height: 1em;
   border-radius: 4px;
@@ -79,15 +81,21 @@ header {
 }
 
 .main-button {
+  width: 200px;
+  height: 50px;
   background-color: var(--accent-color);
   color:var(--primary-white-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   font-size: 16px;
   font-weight: 700px;
 
   border:none;
   outline: none; 
   text-transform: capitalize;
-  padding: 10px 20px;
+  padding: 0px;
 }
 .main-button:hover{
   background-color: var(--button-primary-hover-color);
@@ -126,29 +134,17 @@ a{
 .top-box {
   min-height: 600px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #2f303a;
   padding: 200px var(--container-padding);
   text-align: center;
-
-  background-image: #2f303a57, url("./images/img0.jpg");
+  background-image: #2F303A, url("./images/img0.jpg");
   background-repeat: no-repeat;
   color:var(--primary-white-color);
-  text-align: center;
   background-position: center;
+  letter-spacing: 0.06em;
 }
-
-/* button {
-  color: white;
-  background-color: var(--accent-color);
-  font-size: 16px;
-  font-weight: 700px;
-  border:none;
-  outline: none;  
-  justify-content: center;
-  padding: 10px 20px;
-} */
 
 .top-box .main-title{
   width: 500px;
