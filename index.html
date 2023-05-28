@@ -19,7 +19,7 @@
 
 <body>
   <div class="container">
-    <header class="page-header">
+    <header>
       <nav>
         <!-- navigation menu -->
         <ul class="main-menu">
@@ -29,7 +29,7 @@
         </ul>
       </nav>
       <!--contactos del encabezado-->
-      <ul class="header-contacts list">
+      <ul class="header-contacts">
         <li>
           <a href="mailto:info@devstudio">
             <svg class="icon envelope">
@@ -55,20 +55,26 @@
     <!-- Promesa de valor -->
     <section class="section value-promise">
       <div class="container">
-        <ul class="list">
+        <ul class="value-list">
           <li>
             <div>
-              <SVG class="icon-value">
+              <svg class=" icon-value">
                 <use href="./images/icons.svg#icon-antena"></use>
-              </SVG>
-              <h3 class="title">ATENCION A LOS DETALLES</h3>
-              <p class="description">
-                Nos adelantamos en todos los detalles y procesos de su negocio,
-                para así desarrollar una solución a su medida.
-              </p>
+              </svg>
             </div>
+            <h3 class="title">ATENCION A LOS DETALLES</h3>
+            <p class="description">
+              Nos adelantamos en todos los detalles y procesos de su negocio,
+              para así desarrollar una solución a su medida.
+            </p>
           </li>
+
           <li>
+            <div>
+              <svg class=" icon-value">
+                <use href="./images/icons.svg#icon-clock"></use>
+              </svg>
+            </div>
             <h3 class="title">PUNTUALIDAD</h3>
             <p class="description">
               Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -76,14 +82,26 @@
               los plazos acordados.
             </p>
           </li>
+
           <li>
+            <div>
+              <svg class=" icon-value">
+                <use href="./images/icons.svg#icon-chart-1"></use>
+              </svg>
+            </div>
             <h3 class="title">PLANIFICACIÓN</h3>
             <p class="description">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
+
           <li>
+            <div>
+              <svg class=" icon-value">
+                <use href="./images/icons.svg#icon-astronaut"></use>
+              </svg>
+            </div>
             <h3 class="title">TECNOLOGÍA MODERNA</h3>
             <p class="description">
               Usamos herramientas innovadoras para resolver las tareas
@@ -264,25 +282,95 @@
         </ul>
       </div>
     </section>
+
+    <section class="section customers">
+      <div class="container">
+        <h2>Clientes Regulares</h2>
+        <ul>
+          <li>
+            <svg class="icon-customer" width="41" height="47">
+              <use href="./images/icons.svg#icon-company-1"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="icon-customer" width="40" height="52">
+              <use href="./images/icons.svg#icon-company-2"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="icon-customer" width="43" height="41">
+              <use href="./images/icons.svg#icon-company-3"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="icon-customer" width="84" height="41">
+              <use href="./images/icons.svg#icon-company-4"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="icon-customer" width="63" height="45">
+              <use href="./images/icons.svg#icon-company-5"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="icon-customer" width="94" height="44">
+              <use href="./images/icons.svg#icon-company-6"></use>
+            </svg>
+          </li>
+
+
+      </div>
   </main>
 
   <footer>
+    <a class="logo" href="">webstudio</a>
     <div class="container">
-      <a class="logo" href="#">WebStudio</a>
       <address>
         <ul>
           <li>
-            <a href="#" target="_blank" rel="noopener norefererr">Calz. Ticomán 500, Ciudad de México</a>
+            <a class="contact" href="#" target="_blank" rel="noopener"> Ticomán 500, Ciudad de México</a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener norefererr">info@example.com</a>
-            <br />
+            <a class="contact" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a href="tel:+525555296000" target="_blank" rel="noopener norefererr">+52 55 5529 6000</a>
+            <a class="contact" href="tel:+525555296000">+52 55 5529 6000</a>
           </li>
         </ul>
       </address>
+      <aside>
+        <p>ENCUENTRENOS EN</p>
+        <ul>
+          <li>
+            <a href="#">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </aside>
     </div>
   </footer>
 </body>
