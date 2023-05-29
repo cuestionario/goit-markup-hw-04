@@ -74,6 +74,7 @@ header {
   border-radius: 4px;
 }
 .icon-value{
+  background-color: var(--background-black-color);
   display: flex;
   align-items: center;
   display: inline-block;
@@ -133,16 +134,16 @@ a{
 }
 
 .top-box {
-  min-height: 600px;
+  height: 600px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   padding: 200px var(--container-padding);
   text-align: center;
-  background-image: #2F303A, url("./images/img0.jpg");
+  opacity: 0.2;
+  background-image: url("../images/Img0.jpg");
   background-repeat: no-repeat;
-  color:var(--primary-white-color);
   background-position: center;
   letter-spacing: 0.06em;
 }
@@ -155,19 +156,24 @@ a{
   text-transform: capitalize;
 }
 
-.value-promise{
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-evenly;
+.value-list{
   display: flex;
+  justify-content: space-between;
 }
 
-.value-promise li{
-  list-style: none;
-  width: 240px;
+.value{
+  width: 270px;
+  height: 251px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
-
-.value-promise li .title{
+.icon-value {
+  display: flex;
+  justify-content: center;  
+}
+.value-list li .title{
   height: 50px;
   text-transform: uppercase;
   color: var(--primary-black-color);
@@ -278,9 +284,6 @@ a {
   text-decoration: none;
 }
 
-li {
-  background: var(--primary-white-color);
-}
 
 img {
   text-decoration: none;
@@ -335,7 +338,6 @@ address {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .customers .container ul li {
