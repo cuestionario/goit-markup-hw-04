@@ -35,6 +35,7 @@ body {
   padding:0 15px;
   max-width: 1200px;
   margin: auto;
+  justify-content: space-between;
 }
 
 header {
@@ -330,15 +331,18 @@ address {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-
-
-.customers{
+.customers .container ul {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.icon-customer{
-  display: inline-block;
+.customers .container ul li {
+  list-style: none;
+  width: 360px;
 }
+
 /* ==========================================
 Single-colored icons can be modified like so:
 .icon-name {
