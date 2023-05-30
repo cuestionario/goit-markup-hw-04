@@ -177,10 +177,21 @@ a{
   display: flex;
   justify-content: center;  
 }
+.icon-customer{
+  color: #AFB1B8;
+  width: 170px;
+  height: 81px;
+  border:#AFB1B8 1px solid;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .value-list li .title{
   height: 50px;
   text-transform: uppercase;
   color: var(--primary-black-color);
+  margin-top: 30px ;
 }
 
 .whatwedo-section .container ul {
@@ -297,7 +308,11 @@ img {
 }
 
 .h2-title {
+  color: var(--primary-black-color);
   text-align: center;
+  font-size: 32px;
+  font-weight: 700px;
+  padding: 30px 0;
 }
 
 .img-list {
@@ -334,10 +349,14 @@ address .contact {
   margin-bottom: 204px;
 }
 
+/* .companies{
+  display: flex;
+  justify-content: space-between;
+}
 .customers .container ul li {
   list-style: none;
   width: 360px;
-}
+} */
 
 /* ==========================================
 Single-colored icons can be modified like so:
