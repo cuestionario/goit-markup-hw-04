@@ -74,12 +74,14 @@ header {
   border-radius: 4px;
 }
 .icon-value{
-  background-color: var(--background-black-color);
+  background-color: var(--background-gray-color);
   display: flex;
   align-items: center;
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 270px;
+  height: 120px;
+  padding: 25px;
+  border-radius: 4px;
 }
 
 .main-button {
@@ -141,7 +143,7 @@ a{
   justify-content: center;
   padding: 200px var(--container-padding);
   text-align: center;
-  opacity: 0.2;
+  opacity: 0.8;
   background-image: url("../images/Img0.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -190,19 +192,20 @@ a{
   list-style: none;
   width: 360px;
 }
-.members-section {
+.members-section .team-cards{
   background-color: var(--background-gray-color);
 }
-.members-section .container .team-cards{
+.members-section .container ul{
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  
+  align-items: end;
 }
 .members-section li{
   background-color: var(--primary-white-color);
   text-align: center;
   list-style: none;
+  width: 270px;
+  height: 428px;
 }
 
 .members-section li h3 {
