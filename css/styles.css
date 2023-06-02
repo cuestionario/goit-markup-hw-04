@@ -178,7 +178,6 @@ a{
   justify-content: center;  
 }
 .icon-customer{
-  color: #AFB1B8;
   width: 170px;
   height: 81px;
   border:#AFB1B8 1px solid;
@@ -186,6 +185,9 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.icon-customer:hover{
+  border-color: #2196f3;
 }
 .value-list li .title{
   height: 50px;
@@ -349,10 +351,16 @@ address .contact {
   margin-bottom: 204px;
 }
 
-/* .companies{
+ .companies{
   display: flex;
   justify-content: space-between;
+  fill:#AFB1B8
 }
+
+.companies .icon-customer:hover{
+  fill:#188ce8
+}
+/*
 .customers .container ul li {
   list-style: none;
   width: 360px;
