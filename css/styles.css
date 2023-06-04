@@ -56,19 +56,18 @@ header {
 .header-contacts{
   width: 329px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  fill: #AFB1B8;
 }
- .icon {
+
+.icon {
   display: flex;
   width: 1em;
   height: 1em;
   border-radius: 4px;
   fill: #AFB1B8;
-}
+} 
 
-.icon:hover{
-  fill:var(--accent-color);
-}
 .icon-value{
   background-color: var(--background-gray-color);
   display: flex;
@@ -343,7 +342,7 @@ address .contact {
   margin-bottom: 204px;
 }
 
- .companies{
+.companies{
   display: flex;
   justify-content: space-between;
   fill:#AFB1B8
@@ -352,16 +351,3 @@ address .contact {
 .companies .icon-customer:hover{
   fill:#188ce8
 }
-/*
-.customers .container ul li {
-  list-style: none;
-  width: 360px;
-} */
-
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-  font-size: 32px;
-  color: red;
-}
-========================================== */
