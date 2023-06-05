@@ -68,10 +68,9 @@ header {
   fill: #AFB1B8;
 } 
 
-.icon-value{
+ .icon-value{
   background-color: var(--background-gray-color);
   display: flex;
-  align-items: center;
   display: inline-block;
   width: 270px;
   height: 120px;
@@ -96,6 +95,7 @@ header {
   text-transform: capitalize;
   padding: 0px;
 }
+
 .main-button:hover{
   background-color: var(--button-primary-hover-color);
 }
@@ -140,8 +140,9 @@ a{
   justify-content: center;
   padding: 200px var(--container-padding);
   text-align: center;
-  opacity: 0.8;
+  background-color: var(--background-black-color) ;
   background-image: url("../images/Img0.jpg");
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-position: center;
   letter-spacing: 0.06em;
@@ -168,10 +169,7 @@ a{
   align-items: center;
   text-align: justify;
 }
-.icon-value {
-  display: flex;
-  justify-content: center;  
-}
+
 .icon-customer{
   width: 170px;
   height: 81px;
