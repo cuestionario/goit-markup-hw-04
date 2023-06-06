@@ -335,21 +335,18 @@ footer {
   justify-content: left;
   margin-left: 145px;
 }
-/* address ul{
-  list-style: none;
-} */
+address{
+  margin-top: 53px;
+}
 address .contact {
   display: block;
-  color: var(--text-white-opacity);
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-  padding: 0px 0;
-  
   width: 231px;
-
 }
 .customers .container ul {
   display: flex;
@@ -368,12 +365,38 @@ address .contact {
   fill:#188ce8
 }
 
+aside {
+  margin:70px 65px;
+  width: 206px;
+
+}
 aside p{
   text-decoration: none;
   color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .social-media{
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-section aside .social-media a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  height: 44px;
+  width: 44px;
+}
+.footer-section aside .social-media a:hover {
+  display: flex;
+  background-color: var(--highlight-color);
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
 }
