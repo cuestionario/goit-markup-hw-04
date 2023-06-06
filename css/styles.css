@@ -34,7 +34,8 @@ body {
 .container {
   padding:0 15px;
   max-width: 1200px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-between;
 }
 
@@ -42,7 +43,14 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0 var(--container-padding);
+  height: 80px;
 } 
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .main-menu {
   width: 293px;
@@ -59,6 +67,7 @@ header {
   justify-content: space-around;
   fill: #AFB1B8;
   align-items: center;
+  font-weight: 500;
 }
 
 .contact-us{
@@ -123,7 +132,7 @@ header {
 }
 
 .section {
-  padding: 94px 0;
+  padding: 46px 0;
 }
 
 .section > h2 {
@@ -131,7 +140,7 @@ header {
   text-align: center;
   font-size: 32px;
   font-weight: 700px;
-  padding: 30px 0;
+  /* padding: 30px 0; */
 }
 
 a{
@@ -153,7 +162,7 @@ a{
 }
 
 .top-box .main-title{
-  width: 500px;
+  width: 696px;
   margin: 20px auto;
   color: var(--primary-white-color);
   font-size: 44px;
@@ -206,8 +215,8 @@ a{
 }
 .members-section {
   background-color: var(--background-gray-color);
-  padding-bottom: 56px;
-  margin-bottom: 100px;
+  /* padding-bottom: 56px;
+  margin-bottom: 100px; */
 }
 
 .members-section .container ul{
@@ -261,13 +270,13 @@ a{
 .members-section .container .team-cards li ul li a:focus {
   fill: var(--primary-white-color);
 }
-.button-link {
+.portfolio-menu .button-link {
   color: var(--primary-black-color);
   background-color: #f5f4fa;
-  width: 261px;
-  height: 50px;
+  height: 38px;
   font-size: 16px;
   font-weight: 500px;
+  padding: 6px 25px;
 }
 /* button:hover {
   color: white;
@@ -314,7 +323,7 @@ img {
   text-align: center;
   font-size: 32px;
   font-weight: 700px;
-  padding: 30px 0;
+  padding-bottom: 50px;
 }
 
 .img-list {
@@ -325,9 +334,15 @@ img {
   align-content: center;
 }
 
+.business-section .img-list li{
+  width: 370px;
+  height: 404px;
+  padding: 15px;
+}
+
 footer {
   background-color: var(--background-black-color);
-  padding: 94px var(--container-padding);
+  padding: var(--container-padding);
 }
 
 .footer-section {
@@ -352,7 +367,7 @@ address .contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 204px;
+  /* margin-bottom: 204px; */
 }
 
 .companies{
@@ -390,6 +405,7 @@ aside p{
   border-radius: 25px;
   height: 44px;
   width: 44px;
+  background-color: rgba(75, 75, 75, 0.9);
 }
 .footer-section aside .social-media a:hover {
   display: flex;
@@ -399,4 +415,13 @@ aside p{
   align-items: center;
   justify-content: center;
   border-radius: 35px;
+}
+
+.footer-section aside .social-media a .icon {
+  fill:var(--primary-white-color);
+}
+
+.portfolio-menu{
+  width: 611px;
+  height: 54px;
 }
