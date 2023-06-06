@@ -58,6 +58,13 @@ header {
   display: flex;
   justify-content: space-around;
   fill: #AFB1B8;
+  align-items: center;
+}
+
+.contact-us{
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .icon {
@@ -67,7 +74,7 @@ header {
   fill: #AFB1B8;
 } 
 
- .icon-value{
+.icon-value{
   background-color: var(--background-gray-color);
   display: flex;
   display: inline-block;
@@ -104,7 +111,7 @@ header {
   font-weight: 700;
   font-size: 26px;
   margin-top: 53px;
-  margin-left: 152px;
+  /* margin-left: 152px; */
 }
 
 .logo-black {
@@ -139,7 +146,7 @@ a{
   justify-content: center;
   padding: 200px var(--container-padding);
   text-align: center;
-  background-image: var(--background-black-color) url("../images/Img0.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(47, 48, 58,.4)), url("../images/Img0.jpg");
   background-repeat: no-repeat;
   background-position: center;
   letter-spacing: 0.06em;
@@ -323,9 +330,14 @@ footer {
   padding: 94px var(--container-padding);
 }
 
-address ul{
-  list-style: none;
+.footer-section {
+  display: flex;
+  justify-content: left;
+  margin-left: 145px;
 }
+/* address ul{
+  list-style: none;
+} */
 address .contact {
   display: block;
   color: var(--text-white-opacity);
@@ -334,7 +346,9 @@ address .contact {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-  padding: 5px 0;
+  padding: 0px 0;
+  
+  width: 231px;
 
 }
 .customers .container ul {
@@ -352,4 +366,14 @@ address .contact {
 
 .companies .icon-customer:hover{
   fill:#188ce8
+}
+
+aside p{
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-around;
 }
