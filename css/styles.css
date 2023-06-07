@@ -96,6 +96,7 @@ nav {
 .main-button {
   width: 200px;
   height: 50px;
+  line-height: 30px;
   background-color: var(--accent-color);
   color:var(--primary-white-color);
   display: flex;
@@ -104,8 +105,8 @@ nav {
   justify-content: center;
   font-size: 16px;
   font-weight: 700px;
-
   border:none;
+  border-radius:4px;
   outline: none; 
   text-transform: capitalize;
   padding: 0px;
@@ -249,6 +250,12 @@ a{
   width: 44px;
 }
 
+.wrkr {
+  position: relative;  
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
 .members-section .container .team-cards li ul li a .icon{
   height: 20px;
   width: 20px;
@@ -327,19 +334,22 @@ img {
 }
 
 .img-list {
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
+  margin: 82px auto ;
 }
 
 .business-section .img-list li{
-  width: 370px;
-  height: 404px;
-  padding: 15px;
+margin-bottom: 30px;
+  flex-basis: calc((100% - 50px) / 3);
 }
-
+.business-section .img-list li:hover{
+  position: relative;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 footer {
   background-color: var(--background-black-color);
   padding: var(--container-padding);
