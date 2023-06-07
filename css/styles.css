@@ -1,7 +1,7 @@
 /* Paleta de colores */
 :root {
   --primary-black-color:#212121;
-  --primary-text-color:#757575;
+  --primary-text-color:#AFB1B8;
   --primary-white-color:#fff;
 
   --accent-color:#2196f3;
@@ -93,8 +93,7 @@ nav {
   border-radius: 4px;
 }
 
-.main-button {
-  width: 200px;
+.button-link {
   height: 50px;
   line-height: 30px;
   background-color: var(--accent-color);
@@ -110,9 +109,10 @@ nav {
   outline: none; 
   text-transform: capitalize;
   padding: 0px;
+  margin: 4px;
 }
 
-.main-button:hover{
+.button-link:hover{
   background-color: var(--button-primary-hover-color);
 }
 
@@ -270,6 +270,7 @@ a{
   align-items: center;
   justify-content: center;
   border-radius: 35px;
+  fill:var(--primary-white-color);
 
 }
 
@@ -435,10 +436,10 @@ aside p{
   justify-content: center;
   align-items: center;
 }
-.portfolio-nav{
+/* nav .portfolio-menu{
   display: flex;
   width: 611px;
   height: 54px;
   justify-content: center;
   align-items: center;
-}
+} */
