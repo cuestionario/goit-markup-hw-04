@@ -46,7 +46,7 @@ header {
   height: 80px;
 } 
 
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -420,8 +420,15 @@ aside p{
 .footer-section aside .social-media a .icon {
   fill:var(--primary-white-color);
 }
-
-.portfolio-menu{
+.portfolio-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-nav{
+  display: flex;
   width: 611px;
   height: 54px;
+  justify-content: center;
+  align-items: center;
 }
