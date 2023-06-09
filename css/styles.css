@@ -129,7 +129,7 @@ nav {
   margin: 4px;
 }
 
-.button-link:hover{
+.button-link:hover, .button-link:focus{
   background-color: var(--button-primary-hover-color);
   color: var(--primary-white-color);
 }
@@ -315,10 +315,6 @@ a{
   fill:var(--primary-white-color);
 }
 
-/* .members-section .container .team-cards li ul li a:hover, 
-.members-section .container .team-cards li ul li a:focus {
-  fill: var(--primary-white-color);
-} */
 
 .main-title {
   color: white;
